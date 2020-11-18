@@ -13,4 +13,4 @@ Documentation can be found here : [Link to the Python code](https://towardsdatas
 ## How to run
 
 1. Clone the repository to local machine.
-2. In the project directory, run `npm start` and then 'npm run make'
+2. In the project directory, run `npm start` and then `npm run make`
