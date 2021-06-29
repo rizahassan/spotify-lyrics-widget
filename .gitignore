@@ -87,3 +87,7 @@ typings/
 
 # Electron-Forge
 out/
+
+# github
+package-lock.json
+node_modules
