@@ -46,8 +46,7 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "node-abi": "^2.30.0",
-    "python-shell": "^3.0.0"
+    "node-abi": "^2.30.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.54",

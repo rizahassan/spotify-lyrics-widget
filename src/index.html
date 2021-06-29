@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <title>Hello World!</title>
     <link rel="stylesheet" href="index.css">
-    <script type = "text/javascript" src="./connector.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-    
-    <input type="button" onClick="changeText()" value="Get The Lyric!">
-    <h1 id="song-title"></h1>
-    <h2 id="artist"></h2>
-    <p id="lyric"></p>
+    <!-- <h1>Song Lyrics!</h1> -->
+    <!-- <div id = "outer-border"><div id = "inner-border"><h3 id = "font">LYRIFY ACCOUNT</h3></div></div> -->
+    <img id = "main-icon" src= "./images/playlist-image.png" alt = "main icon">
+    <h1 id = "font">LYRIFY</h1>
+    <form action="#" id = "form">
+      <!-- multiple tags then use class -->
+      <input class = "credentials" placeholder="Username" /> 
+      <input class = "credentials" placeholder="Password" /> 
+    </form>
+    <!-- <p style="text-align:center;"><button><b>Username</b></button></p>
+    <p style="text-align:center;"><button><b>Password</b></button></p> -->
+    <div id = "center-button"><a style="text-align:center;" href="lyrics.html" id="round-button">Done</a></div>
   </body>
 </html>

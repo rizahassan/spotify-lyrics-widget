@@ -91,3 +91,5 @@ out/
 # Python
 /backend/venv
 /.vscode
+# github
+node_modules
