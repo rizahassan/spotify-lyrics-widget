@@ -29,6 +29,17 @@
 
 }
 
+#before-lyric{
+    margin-top:10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#lyric-button{
+    width:100px;
+    height:100px;
+}
+
 h1, h2 { 
     text-align: center;  
     font-family: 'Varela Round', sans-serif;
