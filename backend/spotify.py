@@ -4,8 +4,6 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 import urllib
 
-
-
 class GetLyrics():
 
     def __init__(self, genius_key, access_token,spotify_url):
@@ -98,36 +96,6 @@ class GetLyrics():
             lyrics = GetLyrics.scrape_lyrics(self)
             if lyrics == None:
                 print(f"Track {self.track_name} is not in the Genius database.")
-            else:
-                print(f"Retrieved track {self.track_name} lyrics!")
+            
         song_lyrics.append(lyrics)
         return (self.track_id,song_lyrics)
-
-# def main():
-#     current_track_id = None
-#     while True:
-
-#         player = GetLyrics(GENIUS_ACCESS_TOKEN,SPOTIFY_ACCESS_TOKEN,SPOTIFY_GET_CURRENT_TRACK_URL)
-#         (new_track_id,lyric) = player.get_lyrics()
-
-#         if new_track_id != current_track_id:
-#             print(lyric)
-#             current_track_id = new_track_id
-
-#         time.sleep(1)
-
-	# current_track_id = None
-	# while True:
-	#     current_track_info = get_current_track(ACCESS_TOKEN)
-
-	#     if current_track_info['id'] != current_track_id:
-	# 	    pprint(
-	# 	    	current_track_info,
-	# 	    	indent=4,
-	# 	    )
-	# 	    current_track_id = current_track_info['id']
-
-	#     time.sleep(1)
-
-if __name__ == '__main__':
-    main()
