@@ -85,7 +85,6 @@ class GetLyrics():
                 lyrics = GetLyrics.scrape_lyrics(self)
                 if lyrics == None:
                     print(f"Track {i} is not in the Genius database.")
-                else:
-                    print(f"Retrieved track {i} lyrics!")
+                
             song_lyrics.append(lyrics)
         return song_lyrics
